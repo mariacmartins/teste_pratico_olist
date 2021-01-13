@@ -1,0 +1,15 @@
+Variável,Dataset,Descrição
+order_id,olist_orders,Identificador único do pedido
+product_id,olist_orders,Identificador único do produto
+seller_id,olist_orders,Identificador único do vendedor
+customer_id,olist_orders,Identificador único do cliente
+price,olist_orders,Preço do item
+freight_value,olist_orders,"Valor do frete do item (se um pedido tiver mais que um ítme, o valor do frete é dividido entre eles)"
+order_delivered_customer_date,olist_orders,Data real da entrega ao cliente
+order_estimated_delivery_date,olist_orders,Data de entrega estimada informada ao cliente
+seller_city,olist_orders,Cidade do vendedor
+seller_state,olist_orders,Estado do vendedor
+customer_city,olist_orders,Cidade do cliente
+customer_state,olist_orders,Estado do cliente
+product_id,olist_products,Identificador único do produto
+product_category_name,olist_products,Nome da categoria (nicho) do produto
